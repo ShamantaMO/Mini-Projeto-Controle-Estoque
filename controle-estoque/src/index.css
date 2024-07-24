@@ -8,15 +8,15 @@ body {
 }
 
 .dark {
-  background-color: #333;
-  color: #f0f0f0;
+  background-color: #2b2b2b;
+  color: #161414;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   padding: 1rem;
-  background-color: #007bff;
+  background-color: #042241;
   color: white;
 }
 
@@ -28,7 +28,7 @@ nav a {
 
 .theme-toggle {
   background: none;
-  border: 1px solid white;
+  border: 1px solid #042241;
   padding: 0.5rem;
   color: white;
   cursor: pointer;
@@ -68,7 +68,7 @@ form input, form select {
 
 form button {
   padding: 0.5rem;
-  background-color: #007bff;
+  background-color: #1f4975;
   color: white;
   border: none;
   border-radius: 4px;
@@ -76,7 +76,7 @@ form button {
 }
 
 form button:hover {
-  background-color: #0056b3;
+  background-color: #042241;
 }
 
 .product-item {
@@ -99,17 +99,9 @@ form button:hover {
   width: 60px;
 }
 
-.product-item button {
-  background-color: #dc3545;
-  color: white;
-  border: none;
-  padding: 0.5rem;
-  cursor: pointer;
-  border-radius: 4px;
-}
 
 .product-item button:hover {
-  background-color: #c82333;
+  background-color: #efe0e0;
 }
 
 input[type="text"], input[type="number"] {
@@ -127,7 +119,7 @@ input[type="number"]::-webkit-inner-spin-button {
   margin: 0;
 }
 .product-item {
-  border: 1px solid #ccc;
+  border: 1px solid #8c8b8b;
   border-radius: 8px;
   padding: 1rem;
   margin: 1rem 0;
@@ -149,7 +141,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .product-item button {
-  background-color: #dc3545;
+  background-color: #042241;
   color: white;
   border: none;
   padding: 0.5rem;
@@ -159,23 +151,8 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .product-item button:hover {
-  background-color: #c82333;
+  background-color: #c20313;
 }
 
-.product-item button.edit {
-  background-color: #ffc107;
-  color: white;
-}
 
-.product-item button.edit:hover {
-  background-color: #e0a800;
-}
 
-.product-item button.save {
-  background-color: #28a745;
-  color: white;
-}
-
-.product-item button.save:hover {
-  background-color: #218838;
-}

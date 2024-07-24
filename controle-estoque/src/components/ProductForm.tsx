@@ -49,6 +49,7 @@ const ProductForm: React.FC = () => {
       <div>
         <label>Categoria:</label>
         <select value={category} onChange={(e) => setCategory(e.target.value as 'Comida' | 'Bebida' | 'Não comestível')}>
+          <option></option>
           <option value="Comida">Comida</option>
           <option value="Bebida">Bebida</option>
           <option value="Não comestível">Não comestível</option>
